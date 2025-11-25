@@ -1,8 +1,12 @@
-export default function ProductsPage() {
+import React from 'react'
+import RecentPurchases from './RecentPurchases'
+
+const page = () => {
   return (
     <div>
-      <h1>Products Page</h1>
-      <p>All product details will show here.</p>
+      <RecentPurchases/>
     </div>
-  );
+  )
 }
+
+export default page

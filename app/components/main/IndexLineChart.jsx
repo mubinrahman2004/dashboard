@@ -1,7 +1,6 @@
 'use client'
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
-// Updated data to match months from screenshot
 const data = [
   { name: 'Jan', sales: 4000, profit: 2400 },
   { name: 'Feb', sales: 3000, profit: 1398 },
@@ -20,7 +19,7 @@ const data = [
 export default function SalesChart() {
   return (
     <div className="w-full max-w-full p-3 sm:p-4 bg-gray-700 dark:bg-gray-800 rounded-xl sm:rounded-2xl">
-      {/* Header with status buttons */}
+      
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-4 sm:mb-6">
         <h1 className="text-gray-300 cursor-pointer hover:text-blue-300 transition-all duration-400 text-lg sm:text-xl font-semibold">
           Sales Performance
@@ -37,7 +36,6 @@ export default function SalesChart() {
         </div>
       </div>
 
-      {/* Responsive Chart Container */}
       <div className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px]">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
