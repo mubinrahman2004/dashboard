@@ -13,7 +13,7 @@ const products = [
     sku: "FROX-13563",
     status: "Active",
     sold: "186 / 2058",
-    img: "/watch1.png",
+    img: "/watch.png",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const products = [
     sku: "FROX-13563",
     status: "Active",
     sold: "186 / 2058",
-    img: "/watch3.png",
+    img: "/watch.png",
   },
   {
     id: 4,
@@ -40,8 +40,27 @@ const products = [
     sku: "FROX-13563",
     status: "Active",
     sold: "186 / 2058",
-    img: "/watch4.png",
+    img: "/watch.png",
   },
+  {
+    id: 5,
+    name: "Cubit Smart Watch",
+    price: "$576.28",
+    sku: "FROX-13563",
+    status: "Active",
+    sold: "186 / 2058",
+    img: "/watch.png",
+  },
+  {
+    id: 6,
+    name: "Cubit Smart Watch",
+    price: "$576.28",
+    sku: "FROX-13563",
+    status: "Active",
+    sold: "186 / 2058",
+    img: "/watch.png",
+  },
+,
 ];
 
 const Page = () => {

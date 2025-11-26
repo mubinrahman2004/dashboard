@@ -1,8 +1,13 @@
 import React from 'react'
+import ClientList from './ClientList'
+import ClientListItem from './ClientListItem'
 
 const page = () => {
   return (
-    <div>client</div>
+    <div>
+      <ClientList/>
+      <ClientListItem/>
+    </div>
   )
 }
 

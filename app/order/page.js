@@ -1,8 +1,14 @@
 import React from 'react'
+import OrderList from './OrderList'
+import OrderDetails from './OrderDetails'
 
 const page = () => {
   return (
-    <div>orderpage</div>
+    <div>
+      <OrderList/>
+      {/* <OrderDetails/> */}
+
+    </div>
   )
 }
 
