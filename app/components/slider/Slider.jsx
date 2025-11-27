@@ -36,7 +36,7 @@ export default function Slider() {
         </li>
         <li>
           <Link href="/order">
-            <span className="flex items-center gap-2  text-gray-500 hover:text-white hover:bg-[#7364DB] px-3 py-4 rounded-2xl transition duration-400">
+            <span className="flex items-center gap-2   text-gray-500 hover:text-white hover:bg-[#7364DB] px-3 py-4 rounded-2xl transition duration-400">
               <TbMessageShare />
               <p className="text-base">order</p>
             </span>
