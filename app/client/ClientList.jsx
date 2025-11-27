@@ -1,9 +1,12 @@
+import Link from 'next/link'
 import React from 'react'
 import { FaCalendarAlt, FaChevronRight, FaFilter, FaSearch } from 'react-icons/fa'
 
 const ClientList = () => {
   return (
-    <div>
+  <>
+  <div>
+      <div>
         <div className="bg-white rounded-xl shadow-sm p-4 md:p-6">
       {/* Breadcrumb and Date Range */}
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6 gap-4">
@@ -69,6 +72,8 @@ const ClientList = () => {
       </div>
     </div>
     </div>
+  </div>
+  </>
   )
 }
 

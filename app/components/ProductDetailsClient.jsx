@@ -1,4 +1,4 @@
-// app/products/[id]/ProductDetailsClient.jsx
+
 "use client";
 
 import React, { useState } from "react";
@@ -19,7 +19,7 @@ const ProductDetailsClient = ({ product }) => {
       <h1 className="text-2xl font-bold mb-6">Product Details</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Left Side Form */}
+      
         <div className="lg:col-span-2 bg-white p-6 rounded-xl shadow">
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -96,7 +96,6 @@ const ProductDetailsClient = ({ product }) => {
             </div>
           </div>
 
-          {/* Description */}
           <div className="mt-4">
             <label className="font-semibold text-sm">Description</label>
             <textarea
@@ -106,7 +105,6 @@ const ProductDetailsClient = ({ product }) => {
             ></textarea>
           </div>
 
-          {/* Buttons */}
           <div className="flex gap-4 mt-6">
             <button className="px-5 py-2 bg-purple-600 text-white rounded-lg">
               Update
@@ -120,7 +118,6 @@ const ProductDetailsClient = ({ product }) => {
           </div>
         </div>
 
-        {/* Right Side */}
         <div>
           <div className="bg-white p-6 shadow rounded-xl">
             <img

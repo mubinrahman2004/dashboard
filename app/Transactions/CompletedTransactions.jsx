@@ -81,7 +81,6 @@ const CompletedTransactions = () => {
     <div className="bg-white rounded-xl shadow-sm">
       <h1 className="text-lg md:text-xl font-semibold text-gray-900 px-4 md:px-6 py-4 border-b">Completed Transactions</h1>
       
-      {/* Desktop Table */}
       <div className="hidden lg:block">
         <div className="overflow-x-auto">
           <table className="w-full">
@@ -136,7 +135,6 @@ const CompletedTransactions = () => {
         </div>
       </div>
 
-      {/* Mobile Cards */}
       <div className="lg:hidden p-4 space-y-4">
         {orders.map((order, index) => (
           <div key={index} className="bg-gray-50 rounded-lg p-4 border border-gray-200">

@@ -1,14 +1,15 @@
-import React from 'react'
-import ClientList from './ClientList'
-import ClientListItem from './ClientListItem'
+import React from "react";
+import ClientList from "./ClientList";
+import ClientListItem from "../components/ClientListItem";
+
 
 const page = () => {
   return (
     <div>
-      <ClientList/>
-      <ClientListItem/>
+      <ClientList />
+      <ClientListItem />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
