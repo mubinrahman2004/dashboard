@@ -1,15 +1,14 @@
-import React from 'react'
-import OrderList from './OrderList'
-import OrderDetails from './OrderDetails'
+import React from "react";
+import OrderList from "./OrderList";
+import OrderDetails from "../components/OrderDetails";
 
 const page = () => {
   return (
     <div>
-      <OrderList/>
+      <OrderList />
       {/* <OrderDetails/> */}
-
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
