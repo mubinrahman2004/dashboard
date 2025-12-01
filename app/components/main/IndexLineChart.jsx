@@ -1,3 +1,4 @@
+
 'use client'
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
@@ -16,7 +17,7 @@ const data = [
   { name: 'Dec', sales: 1890, profit: 4800 },
 ];
 
-export default function SalesChart() {
+export default function IndexLineChart() {
   return (
     <div className="w-full max-w-full p-3 sm:p-4 bg-gray-700 dark:bg-gray-800 rounded-xl sm:rounded-2xl">
       
@@ -24,11 +25,11 @@ export default function SalesChart() {
         <h1 className="text-gray-300 cursor-pointer hover:text-blue-300 transition-all duration-400 text-lg sm:text-xl font-semibold">
           Sales Performance
         </h1>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 ">
           {['Completed', 'Pending', 'Unpaid', 'Delivered'].map((status) => (
             <button
               key={status}
-              className="px-3 py-1.5 text-xs bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
+              className="px-3 py-1.5 text-xs cursor-pointer bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
             >
               {status}
             </button>

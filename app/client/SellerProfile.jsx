@@ -1,87 +1,4 @@
-// import Image from "next/image";
-// import React from "react";
-// import saller from "../../public/saller2.png";
-// import { FaStar } from "react-icons/fa";
 
-// const SellerProfile = () => {
-//   return (
-//     <div>
-//       <div>
-//         <Image src={saller} alt="saller" />
-//         <h2>FoxMedia.,JSC</h2>
-//         <p>Since 2012</p>
-//       </div>
-//       <div className="w-[233px]">
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Owner Name</p>
-//           <h2 className="text-base font-medium text-[#07070C]">Jonhson Mark</h2>
-//         </div>
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Company Type</p>
-//           <h2 className="text-base font-medium text-[#07070C]">Partnership</h2>
-//         </div>
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Email</p>
-//           <h2 className="text-base font-medium text-[#07070C]">
-//             foxmedia@gmal.co
-//           </h2>
-//         </div>
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Website</p>
-//           <h2 className="text-base font-medium text-[#07070C]">
-//             foxmedia.com.uk
-//           </h2>
-//         </div>
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Contact No.</p>
-//           <h2 className="text-base font-medium text-[#07070C]">0198545632</h2>
-//         </div>
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Fax</p>
-//           <h2 className="text-base font-medium text-[#07070C]">0198545632</h2>
-//         </div>
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Location</p>
-//           <h2 className="text-base font-medium text-[#07070C]">
-//             United Kingdom
-//           </h2>
-//         </div>
-//         <div className="flex justify-between">
-//           <p className="text-base font-medium text-[#7E7E8F]">Joined</p>
-//           <h2 className="text-base font-medium text-[#07070C]">
-//             18 January 2012
-//           </h2>
-//         </div>
-//       </div>
-//       <h2>Customer Reviews</h2>
-//       <div className="flex gap-2">
-//         <FaStar />
-//         <FaStar />
-//         <FaStar />
-//         <FaStar />
-//         <FaStar />
-//       </div>
-//       <h1>Total 12k reviews</h1>
-//       <div>
-//         <h3>5 star</h3>
-//         <h3>4 star</h3>
-//         <h3>3 star</h3>
-//         <h3>1 star</h3>
-//       </div>
-//       <div>
-//         <h3>Contact this seller</h3>
-//         <input type="text" placeholder="Subject" className="border-2 " />
-    
-//       </div>
-//           <div className="py-5">
-//             <input type="text" placeholder="Message" className="border-2  h-50" />
-//           </div>
-//           <p className="px-5 py-3 bg-[#7364DB] rounded-2xl w-fit">Send message</p>
-//     </div>
-//   );
-// };
-
-// export default SellerProfile;
 import Image from "next/image";
 import React from "react";
 import saller from "../../public/saller2.png";
@@ -140,7 +57,7 @@ const SellerProfile = () => {
         <p className="text-gray-500 text-sm mb-4">Total 12k reviews</p>
         
         {/* Rating Breakdown */}
-        <div className="space-y-2">
+        <div className="">
           {[5, 4, 3, 2, 1].map((stars) => (
             <div key={stars} className="flex items-center gap-2">
               <span className="text-sm text-gray-600 w-8">{stars} star</span>
@@ -169,7 +86,7 @@ const SellerProfile = () => {
             rows={4}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent resize-none"
           />
-          <button className="px-6 py-3 bg-[#7364DB] text-white rounded-2xl hover:bg-[#6354c5] transition-colors duration-200 font-medium">
+          <button className="px-6 py-3 bg-[#7364DB] cursor-pointer text-white rounded-2xl hover:bg-[#2a17a5] transition-colors duration-200 font-medium">
             Send message
           </button>
         </div>
