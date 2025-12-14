@@ -41,14 +41,14 @@ const BestSeller = () => {
           <button className="text-xs sm:text-sm text-gray-600 hover:text-blue-600 transition-colors duration-200 px-3 py-2 border border-gray-300 rounded-lg hover:border-blue-600 bg-white">
             Sales report
           </button>
-          <button className="text-xs sm:text-sm text-gray-600 hover:text-blue-600 transition-colors duration-200 px-3 py-2 border border-gray-300 rounded-lg hover:border-blue-600 bg-white">
+          <button className="text-xs  sm:text-sm text-gray-600 hover:text-blue-600 transition-colors duration-200 px-3 py-2 border border-gray-300 rounded-lg hover:border-blue-600 bg-white">
             Export report
           </button>
         </div>
       </div>
 
       {/* Best Seller Cards */}
-      <div className="grid grid-cols-1 gap-3 sm:gap-4 max-h-[500px] overflow-y-auto">
+      <div className="grid grid-cols-1 gap-3  sm:gap-4 max-h-[500px] overflow-y-auto">
         {[...Array(6)].map((_, index) => (
           <BestSellerCard key={index} />
         ))}

@@ -11,7 +11,7 @@ const DashboardItem = () => {
          <div className=" bg-red-50 p-4 md:p-6">
               <div className="w-full  ">
                 <div className="mb-6 md:mb-8">
-                  <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
+                  <h1 className="text-2xl md:text-3xl   font-bold text-gray-800 mb-2">
                     Dashboard
                   </h1>
                   <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4">

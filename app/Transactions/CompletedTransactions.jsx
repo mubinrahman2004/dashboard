@@ -4,7 +4,7 @@ import React from 'react'
 const CompletedTransactions = () => {
   const orders = [
     {
-      product: "MacBook Pro",
+      product: "Macknsnsndnswook Pro",
       orderId: "#25413",
       date: "Aug 5th, 2021",
       name: "Bessie Cooper",
@@ -12,7 +12,7 @@ const CompletedTransactions = () => {
       status: "Completed",
       amount: "$400.00",
       paid: "$2458",
-      payment: "visa"
+      payment: "visddda"
     },
     {
       product: "iPhone 11 Pro",
@@ -37,6 +37,17 @@ const CompletedTransactions = () => {
       payment: "visa"
     },
     {
+      product: "MacBook Air",
+      orderId: "#25416",
+      date: "Aug 5th, 2021",
+      name: "Brooklyn",
+      img: "/Avatar3.png",
+      status: "Completed",
+      amount: "$150.00",
+      paid: "$2458",
+      payment: "visa"
+    },
+        {
       product: "MacBook Air",
       orderId: "#25416",
       date: "Aug 5th, 2021",
