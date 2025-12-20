@@ -15,6 +15,8 @@ const products = [
     sold: "186 / 2058",
     img: "/watch.png",
   },
+
+
   {
     id: 2,
     name: "Cubit Smart Watch",
